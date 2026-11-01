@@ -1,0 +1,27 @@
+{
+  "name": "@profullstack/cli-updater",
+  "version": "0.1.0",
+  "description": "Shared version-checked update, upgrade, remove, and auto-update helpers for Profullstack CLIs",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./auto-update": "./src/auto-update.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/profullstack/cli-updater.git"
+  },
+  "homepage": "https://github.com/profullstack/cli-updater#readme"
+}
